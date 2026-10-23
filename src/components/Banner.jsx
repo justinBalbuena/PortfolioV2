@@ -12,7 +12,7 @@ function Banner() {
           <h1 className="banner_text">Justin Balbuena</h1>
           <p className="banner_subtext">Software Engineer</p>
           <p className="banner_intro">
-            Computer Science student at Manhattan College in New York, building web apps, games, and tools
+            Computer Science Masters student at Manhattan University in New York, building web apps, games, and tools
             with JavaScript, Python, and Node.js.
           </p>
 
