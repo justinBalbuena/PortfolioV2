@@ -1,0 +1,57 @@
+/* 3 columns on wide screens, 2 on tablets, 1 on phones */
+.more_projects_section {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  margin-bottom: 64px;
+}
+
+@media (max-width: 1024px) {
+  .more_projects_section {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .more_projects_section {
+    grid-template-columns: 1fr;
+  }
+}
+
+.extra_project_card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px;
+  background-color: var(--background_color);
+  border: 1px solid rgba(48, 51, 54, 0.15);
+  border-top: 6px solid var(--primary_color);
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  transition: transform 0.25s, box-shadow 0.25s;
+}
+
+.extra_project_card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.12);
+}
+
+.extra_project_title {
+  font-size: 22px;
+}
+
+/* Keep the icon row pinned to the bottom so cards in a row line up */
+.extra_project_icons {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12px;
+  margin-top: auto;
+  padding-top: 16px;
+  border-top: 1px solid rgba(48, 51, 54, 0.1);
+}
+
+.extra_project_icons img {
+  height: 48px;
+  width: auto;
+}

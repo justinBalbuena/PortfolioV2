@@ -62,8 +62,8 @@ export const moreProjects = [
     url: 'https://github.com/justinBalbuena/MealsToGo',
     description: "MealsToGo website created by following Jonas Schmedtmann's HTML Udemy Course",
     icons: [
-      { src: htmlIcon, alt: 'HTML', className: 'smaller_language_icon' },
-      { src: cssIcon, alt: 'CSS', className: 'smaller_language_icon' },
+      { src: htmlIcon, alt: 'HTML' },
+      { src: cssIcon, alt: 'CSS' },
     ],
   },
   {
@@ -71,8 +71,8 @@ export const moreProjects = [
     url: 'https://github.com/justinBalbuena/task-manager-api',
     description: "Task-Manager-API created by following Andrew Mead's Node.js Developer Course",
     icons: [
-      { src: nodejsIcon, alt: 'Node.js', className: 'language_icon' },
-      { src: mongodbIcon, alt: 'MongoDB', className: 'language_icon' },
+      { src: nodejsIcon, alt: 'Node.js' },
+      { src: mongodbIcon, alt: 'MongoDB' },
     ],
   },
   {
@@ -81,10 +81,10 @@ export const moreProjects = [
     description: `A group final project done for my databases class. It serves as a Pokemon database where users could
       save the pokemon they've caught to it and find some basic information on pokemon.`,
     icons: [
-      { src: htmlIcon, alt: 'HTML', className: 'smaller_language_icon' },
-      { src: cssIcon, alt: 'CSS', className: 'smaller_language_icon' },
-      { src: sqlIcon, alt: 'SQL', className: 'smaller_language_icon' },
-      { src: phpIcon, alt: 'PHP', className: 'wide_language_icon' },
+      { src: htmlIcon, alt: 'HTML' },
+      { src: cssIcon, alt: 'CSS' },
+      { src: sqlIcon, alt: 'SQL' },
+      { src: phpIcon, alt: 'PHP' },
     ],
   },
 ]
