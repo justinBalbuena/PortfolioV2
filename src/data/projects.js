@@ -16,9 +16,9 @@ export const favoriteProjects = [
     url: 'https://blockchain-project-rwj6.onrender.com',
     image: impossibleDashImg,
     description: `In my "Blockchain and Cryptocurrencies" class, I was tasked with creating a decentralized blockchain application.
-      That idea evolved into Impossible Dash — a competitive web game where players try to achieve the highest score across a network of nodes.
-      Inspired by Geometry Dash, I used the KAPLAY.js library to build a fast-paced and frustrating (but addictive) platformer.
-      My goal was to make it just annoying enough that people would want to try again — and after watching classmates playtest it,
+      That idea became Impossible Dash. Its meant to be a competitive web game where players try to achieve the highest score across a network of nodes.
+      Inspired by Geometry Dash, I used the KAPLAY.js library to build a fast-paced and frustrating 2D platformer.
+      My goal was to make it just annoying enough that people would want to try again and after watching classmates playtest it,
       I think I found the right balance. The game is mostly decentralized thanks to the GUN.js library, which syncs scores across all
       connected nodes. The only centralized component is account creation, which uses Mongoose.js and stores a username, password, and email
       in a MongoDB Atlas cluster. Every minute, the system selects the highest score recorded across all nodes and stores it as a new block
@@ -62,8 +62,8 @@ export const moreProjects = [
     url: 'https://github.com/justinBalbuena/MealsToGo',
     description: "MealsToGo website created by following Jonas Schmedtmann's HTML Udemy Course",
     icons: [
-      { src: htmlIcon, alt: 'HTML' },
-      { src: cssIcon, alt: 'CSS' },
+      { src: htmlIcon, alt: 'HTML', className: 'smaller_language_icon' },
+      { src: cssIcon, alt: 'CSS', className: 'smaller_language_icon' },
     ],
   },
   {
@@ -71,8 +71,8 @@ export const moreProjects = [
     url: 'https://github.com/justinBalbuena/task-manager-api',
     description: "Task-Manager-API created by following Andrew Mead's Node.js Developer Course",
     icons: [
-      { src: nodejsIcon, alt: 'Node.js' },
-      { src: mongodbIcon, alt: 'MongoDB' },
+      { src: nodejsIcon, alt: 'Node.js', className: 'language_icon' },
+      { src: mongodbIcon, alt: 'MongoDB', className: 'language_icon' },
     ],
   },
   {
@@ -81,10 +81,10 @@ export const moreProjects = [
     description: `A group final project done for my databases class. It serves as a Pokemon database where users could
       save the pokemon they've caught to it and find some basic information on pokemon.`,
     icons: [
-      { src: htmlIcon, alt: 'HTML' },
-      { src: cssIcon, alt: 'CSS' },
-      { src: sqlIcon, alt: 'SQL' },
-      { src: phpIcon, alt: 'PHP' },
+      { src: htmlIcon, alt: 'HTML', className: 'smaller_language_icon' },
+      { src: cssIcon, alt: 'CSS', className: 'smaller_language_icon' },
+      { src: sqlIcon, alt: 'SQL', className: 'smaller_language_icon' },
+      { src: phpIcon, alt: 'PHP', className: 'wide_language_icon' },
     ],
   },
 ]
