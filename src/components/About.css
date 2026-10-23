@@ -1,0 +1,38 @@
+.about_sect {
+  margin: 0 auto;
+  width: 90%;
+  color: var(--accent_color);
+}
+
+.about_sect_content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.bio_info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.mc_logo_img {
+  width: 100px;
+  height: 100px;
+  margin-left: -10px;
+}
+
+.about_paragraph {
+  padding-top: 24px;
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.author_img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  object-fit: cover;
+  box-shadow: 6px 12px rgba(50, 50, 50);
+  padding-top: 12px;
+}
